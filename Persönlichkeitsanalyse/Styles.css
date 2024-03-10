@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.form-container {
+    width: 400px;
+    height: 500px;
+    display: none;
+    
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(145deg, transparent 35%,#0000ff, #bf00ff) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-size: 200% 100%;
+    animation: gradient 5s ease infinite;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5pc;
+    overflow-y: auto;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 8px 12px 8px 16px;
+    gap: 8px;
+    height: 40px;
+    width: 260px;
+    border: none;
+    background: #004fbd27;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 21%;  
+}
+  
+  .lable {
+    margin-top: 1px;
+    font-size: 19px;
+    line-height: 22px;
+    color: #056DFA;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .button:hover {
+    background: #056bfa49;
+  }
+  
+  .button:hover .svg-icon {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    25% {
+      transform: rotate(-8deg);
+    }
+  
+    50% {
+      transform: rotate(0deg);
+    }
+  
+    75% {
+      transform: rotate(8deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+ 
+img{
+    height: 500px;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+.photo_9{
+    height: 250px;
+}
+.photo_10{
+    height: 250px;
+}
+.photo_11{
+    height: 300px;
+}
+.photo_12{
+    height: 250px;
+    width: 280px;
+}
+.photo_13{
+    height: 250px;
+}
+.photo_14{
+    height: 250px;
+}
+.photo_15{
+    height: 400px;
+}
+
+
+video{
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+    
